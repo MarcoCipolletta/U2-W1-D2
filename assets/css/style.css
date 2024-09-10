@@ -363,8 +363,8 @@ aside div {
 .fa-tag {
   position: absolute;
   font-size: 4rem;
-  top: 5px;
-  right: 5px;
+  top: 10px;
+  right: 10px;
   color: #00000021;
 }
 
