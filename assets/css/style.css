@@ -196,6 +196,10 @@ h1 + p {
   h1 {
     font-size: 3.6rem;
   }
+  .title-wrapper > img {
+    bottom: -18px;
+    width: 515px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -204,6 +208,11 @@ h1 + p {
   }
   section {
     border-radius: 20px;
+  }
+  .title-wrapper > img {
+    bottom: -18px;
+    right: 160px;
+    width: 515px;
   }
 }
 
@@ -349,6 +358,14 @@ aside div {
   border: 1px solid #c3c3c3;
   margin-bottom: 1em;
   padding: 1em;
+  position: relative;
+}
+.fa-tag {
+  position: absolute;
+  font-size: 4rem;
+  top: 5px;
+  right: 5px;
+  color: #00000021;
 }
 
 @media screen and (min-width: 1200px) {
